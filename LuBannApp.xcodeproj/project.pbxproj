@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014E12F315D7C4AD001BBF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014E12F215D7C4AD001BBF47 /* UIKit.framework */; };
+		014E12F515D7C4AD001BBF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014E12F415D7C4AD001BBF47 /* Foundation.framework */; };
+		014E12F715D7C4AD001BBF47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014E12F615D7C4AD001BBF47 /* CoreGraphics.framework */; };
+		014E12FD15D7C4AD001BBF47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 014E12FB15D7C4AD001BBF47 /* InfoPlist.strings */; };
+		014E12FF15D7C4AD001BBF47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E12FE15D7C4AD001BBF47 /* main.m */; };
+		014E130315D7C4AD001BBF47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E130215D7C4AD001BBF47 /* AppDelegate.m */; };
+		014E130615D7C4AD001BBF47 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E130515D7C4AD001BBF47 /* FirstViewController.m */; };
+		014E130815D7C4AD001BBF47 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 014E130715D7C4AD001BBF47 /* first.png */; };
+		014E130A15D7C4AD001BBF47 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 014E130915D7C4AD001BBF47 /* first@2x.png */; };
+		014E130D15D7C4AD001BBF47 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014E130C15D7C4AD001BBF47 /* SecondViewController.m */; };
+		014E130F15D7C4AD001BBF47 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 014E130E15D7C4AD001BBF47 /* second.png */; };
+		014E131115D7C4AD001BBF47 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 014E131015D7C4AD001BBF47 /* second@2x.png */; };
+		014E131415D7C4AD001BBF47 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014E131215D7C4AD001BBF47 /* FirstViewController.xib */; };
+		014E131715D7C4AD001BBF47 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014E131515D7C4AD001BBF47 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014E12EE15D7C4AD001BBF47 /* LuBannApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuBannApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014E12F215D7C4AD001BBF47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		014E12F415D7C4AD001BBF47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		014E12F615D7C4AD001BBF47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		014E12FA15D7C4AD001BBF47 /* LuBannApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LuBannApp-Info.plist"; sourceTree = "<group>"; };
+		014E12FC15D7C4AD001BBF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		014E12FE15D7C4AD001BBF47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		014E130015D7C4AD001BBF47 /* LuBannApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LuBannApp-Prefix.pch"; sourceTree = "<group>"; };
+		014E130115D7C4AD001BBF47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		014E130215D7C4AD001BBF47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		014E130415D7C4AD001BBF47 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		014E130515D7C4AD001BBF47 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		014E130715D7C4AD001BBF47 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		014E130915D7C4AD001BBF47 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		014E130B15D7C4AD001BBF47 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		014E130C15D7C4AD001BBF47 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		014E130E15D7C4AD001BBF47 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		014E131015D7C4AD001BBF47 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		014E131315D7C4AD001BBF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		014E131615D7C4AD001BBF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014E12EB15D7C4AD001BBF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014E12F315D7C4AD001BBF47 /* UIKit.framework in Frameworks */,
+				014E12F515D7C4AD001BBF47 /* Foundation.framework in Frameworks */,
+				014E12F715D7C4AD001BBF47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014E12E315D7C4AD001BBF47 = {
+			isa = PBXGroup;
+			children = (
+				014E12F815D7C4AD001BBF47 /* LuBannApp */,
+				014E12F115D7C4AD001BBF47 /* Frameworks */,
+				014E12EF15D7C4AD001BBF47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		014E12EF15D7C4AD001BBF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014E12EE15D7C4AD001BBF47 /* LuBannApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014E12F115D7C4AD001BBF47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014E12F215D7C4AD001BBF47 /* UIKit.framework */,
+				014E12F415D7C4AD001BBF47 /* Foundation.framework */,
+				014E12F615D7C4AD001BBF47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		014E12F815D7C4AD001BBF47 /* LuBannApp */ = {
+			isa = PBXGroup;
+			children = (
+				014E130115D7C4AD001BBF47 /* AppDelegate.h */,
+				014E130215D7C4AD001BBF47 /* AppDelegate.m */,
+				014E130415D7C4AD001BBF47 /* FirstViewController.h */,
+				014E130515D7C4AD001BBF47 /* FirstViewController.m */,
+				014E130715D7C4AD001BBF47 /* first.png */,
+				014E130915D7C4AD001BBF47 /* first@2x.png */,
+				014E130B15D7C4AD001BBF47 /* SecondViewController.h */,
+				014E130C15D7C4AD001BBF47 /* SecondViewController.m */,
+				014E130E15D7C4AD001BBF47 /* second.png */,
+				014E131015D7C4AD001BBF47 /* second@2x.png */,
+				014E131215D7C4AD001BBF47 /* FirstViewController.xib */,
+				014E131515D7C4AD001BBF47 /* SecondViewController.xib */,
+				014E12F915D7C4AD001BBF47 /* Supporting Files */,
+			);
+			path = LuBannApp;
+			sourceTree = "<group>";
+		};
+		014E12F915D7C4AD001BBF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				014E12FA15D7C4AD001BBF47 /* LuBannApp-Info.plist */,
+				014E12FB15D7C4AD001BBF47 /* InfoPlist.strings */,
+				014E12FE15D7C4AD001BBF47 /* main.m */,
+				014E130015D7C4AD001BBF47 /* LuBannApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014E12ED15D7C4AD001BBF47 /* LuBannApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014E131A15D7C4AD001BBF47 /* Build configuration list for PBXNativeTarget "LuBannApp" */;
+			buildPhases = (
+				014E12EA15D7C4AD001BBF47 /* Sources */,
+				014E12EB15D7C4AD001BBF47 /* Frameworks */,
+				014E12EC15D7C4AD001BBF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuBannApp;
+			productName = LuBannApp;
+			productReference = 014E12EE15D7C4AD001BBF47 /* LuBannApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014E12E515D7C4AD001BBF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Fr@nk";
+			};
+			buildConfigurationList = 014E12E815D7C4AD001BBF47 /* Build configuration list for PBXProject "LuBannApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 014E12E315D7C4AD001BBF47;
+			productRefGroup = 014E12EF15D7C4AD001BBF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014E12ED15D7C4AD001BBF47 /* LuBannApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014E12EC15D7C4AD001BBF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014E12FD15D7C4AD001BBF47 /* InfoPlist.strings in Resources */,
+				014E130815D7C4AD001BBF47 /* first.png in Resources */,
+				014E130A15D7C4AD001BBF47 /* first@2x.png in Resources */,
+				014E130F15D7C4AD001BBF47 /* second.png in Resources */,
+				014E131115D7C4AD001BBF47 /* second@2x.png in Resources */,
+				014E131415D7C4AD001BBF47 /* FirstViewController.xib in Resources */,
+				014E131715D7C4AD001BBF47 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014E12EA15D7C4AD001BBF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014E12FF15D7C4AD001BBF47 /* main.m in Sources */,
+				014E130315D7C4AD001BBF47 /* AppDelegate.m in Sources */,
+				014E130615D7C4AD001BBF47 /* FirstViewController.m in Sources */,
+				014E130D15D7C4AD001BBF47 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		014E12FB15D7C4AD001BBF47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014E12FC15D7C4AD001BBF47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		014E131215D7C4AD001BBF47 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014E131315D7C4AD001BBF47 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		014E131515D7C4AD001BBF47 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014E131615D7C4AD001BBF47 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		014E131815D7C4AD001BBF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		014E131915D7C4AD001BBF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		014E131B15D7C4AD001BBF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuBannApp/LuBannApp-Prefix.pch";
+				INFOPLIST_FILE = "LuBannApp/LuBannApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		014E131C15D7C4AD001BBF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LuBannApp/LuBannApp-Prefix.pch";
+				INFOPLIST_FILE = "LuBannApp/LuBannApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014E12E815D7C4AD001BBF47 /* Build configuration list for PBXProject "LuBannApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014E131815D7C4AD001BBF47 /* Debug */,
+				014E131915D7C4AD001BBF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014E131A15D7C4AD001BBF47 /* Build configuration list for PBXNativeTarget "LuBannApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014E131B15D7C4AD001BBF47 /* Debug */,
+				014E131C15D7C4AD001BBF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014E12E515D7C4AD001BBF47 /* Project object */;
+}
