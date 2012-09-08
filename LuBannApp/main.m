@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+#import "LuBannAppAppDelegate.h"
 
-int main(int argc, char *argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+
+
+int main(int argc, char *argv[]) {
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    //int retVal = UIApplicationMain(argc, argv, nil, nil);
+    int retVal = UIApplicationMain(argc, argv, nil, @"LuBannAppAppDelegate");
+    [pool release];
+    return retVal;
 }

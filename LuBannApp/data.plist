@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>name</key>
+      <string>Alabama</string>
+      <key>abreviation</key>
+      <string>AL</string>
+      <key>date</key>
+      <string>1819</string>
+      <key>population</key>
+      <string>4,627,851</string>
+      <key>capital</key>
+      <string>Montgomery</string>
+      <key>largestCity</key>
+      <string>Birmingham</string>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Alaska</string>
+      <key>abreviation</key>
+      <string>AK</string>
+      <key>date</key>
+      <string>1959</string>
+      <key>population</key>
+      <string>683,478</string>
+      <key>capital</key>
+      <string>Juneau</string>
+      <key>largestCity</key>
+      <string>Anchorage</string>
+    </dict>
+  </array>
+</plist>
